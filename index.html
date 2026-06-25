@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image</title>
+
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script> <!-- THREE.js (IMPORTANT: older version) --> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script> <!-- Shery.js --> 
+  <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" /> 
+  <script src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" integrity="sha512-XcIsjKMcuVe0Ucj/xgIXQnytNwBttJbNjltBV18IOnru2lDPe9KRRyvCXw6Y5H415vbBLRm8+q6fmLUU7DfO6Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+
+
+  <style>
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    background: #000 !important;
+  }
+
+  #images {
+    background: #000 !important;
+  }
+</style>
+
+</head>
+<body class="m-0 min-h-screen w-full bg-black flex justify-center items-center ">
+
+
+
+
+  <div id="images" class="h-[82vh] w-[77vw] flex justify-center items-center rounded-3xl">
+      <img src="https://res.cloudinary.com/dunwz8exc/image/upload/v1782368961/Screenshot_20260625_115828_f6rvtu.png" class="border-2 border-white rounded-xl" alt="">
+  </div>
+
+  
+  <script>
+  Shery.makeMagnet("#images" , {
+  ease: "cubic-bezier(0.03, 1, 0.120, 1)",
+  duration: 2,
+  });
+
+
+  </script>
+</body>
+</html>
